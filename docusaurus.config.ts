@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 const config: Config = {
   title: 'SURFINGBODIES',
-  tagline: 'Wiki for the SurfingBodies physical preperation system',
+  tagline: 'Wiki for the SB surfing performance physical preperation system',
   favicon: 'img/favicon.ico',
   future: {
     v4: true,
@@ -94,7 +94,7 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/intro',
+              to: '/docs/Guide/intro',
             },
           ],
         },
