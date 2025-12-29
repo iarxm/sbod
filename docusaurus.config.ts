@@ -9,10 +9,10 @@ const config: Config = {
   future: {
     v4: true,
   },
-  url: 'https://iarxm.github.io/sbod/',
+  url: 'https://iarxm.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/sbod/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'iarxm', // Usually GitHub org/user name.
