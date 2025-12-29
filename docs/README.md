@@ -1,14 +1,14 @@
 ---
 home: true
 title: Home
-heroImage: https://vuejs.press/images/hero.png
+heroImage: /img/logo-x.png
 actions:
   - text: Get Started
     link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: Docs
+    link: /sbod/index.html
     type: secondary
 
 features:
@@ -25,9 +25,10 @@ features:
   - title: Bundlers
     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: MIT Licensed | Copyright © 2025-present SurfingBodies Iarom MT
 ---
 
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
+[introduction]: https://vuejs.press/guide/introduction.html
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page

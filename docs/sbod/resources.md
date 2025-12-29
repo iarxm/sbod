@@ -2,7 +2,7 @@
 id: External Resources
 aliases: []
 tags: []
-sidebar_position: 8
+title: Guide
 ---
 
 ### Resources

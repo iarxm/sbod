@@ -2,10 +2,12 @@
 id: Training Principles
 aliases: []
 tags: []
-sidebar_position: 7
+title: Guide
 ---
 
-### Principles
+# Guide 
+
+## Principles
 
 - A. Train to train
 - B. Train to compete
@@ -33,4 +35,3 @@ Think in four year cycles
 - Cross training
 - Paddle technique / strength
 
-AB

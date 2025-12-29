@@ -1,9 +1,0 @@
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-surfingbodies:
-  label: SurfingBodies
-  permalink: /SB
-  description: SurfingBodies tag description
