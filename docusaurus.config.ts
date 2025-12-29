@@ -67,7 +67,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'SurfingBodies',
+      title: 'SB',
       logo: {
         alt: 'SURFBODIES',
         src: 'img/logo.png',
@@ -82,7 +82,7 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/iarxm/sbod',
-          label: 'GH',
+          label: 'GitHub',
           position: 'right',
         },
       ],
@@ -94,8 +94,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Intro',
-              to: '/docs/intro',
+              label: 'Docs',
+              to: '/docs/Guide',
             },
           ],
         },
