@@ -44,10 +44,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-background-color: #020617;
   --ifm-background-surface-color: #020617;
-
-  --ifm-navbar-border-color: rgba(0,0,0,0);
-  --ifm-footer-border-color: rgba(0,0,0,0);
-
 }
 
 .docs-doc-page .theme-layout-footer {
@@ -79,4 +75,29 @@ html {
 
 .navbar, .sidebar, .menu__link {
   border: none !important;
+}
+
+.theme-doc-sidebar-container {
+  border-right: none !important;
+}
+
+/* Center the footer columns as a whole */
+.footer__links {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Center each column's contents */
+.footer__col {
+  align-items: center;
+}
+
+/* Center titles */
+.footer__title {
+  text-align: center;
+}
+
+/* Center individual links */
+.footer__item {
+  justify-content: center;
 }

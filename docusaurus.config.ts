@@ -90,6 +90,14 @@ const config: Config = {
               label: 'Docs',
               to: '/docs/intro',
             },
+            {
+              label: 'Principles',
+              to: '/docs/intro',
+            },
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
           ],
         },
         {
@@ -110,16 +118,6 @@ const config: Config = {
             {
               label: 'Instagram',
               href: 'https://instagram.com/surfingbodies',
-            },
-
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
             },
             {
               label: 'GitHub',
