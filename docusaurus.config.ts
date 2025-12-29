@@ -60,7 +60,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'SB',
+      title: 'SurfingBodies',
       logo: {
         alt: 'SURFBODIES',
         src: 'img/logo.png',
