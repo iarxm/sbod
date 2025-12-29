@@ -20,14 +20,16 @@
   --ifm-background-color: #ffffff;
   --ifm-background-surface-color: #ffffff;
 
-  --ifm-footer-background-color: var(--ifm-background-surface-color);
   --ifm-footer-color: var(--ifm-font-color-base);
   
   --ifm-navbar-background-color: var(--ifm-background-surface-color);
   --ifm-footer-background-color: var(--ifm-background-surface-color);
+  
   --ifm-navbar-border-color: rgba(255,255,255,0.08);
   --ifm-footer-border-color: rgba(255,255,255,0.08);
 
+  /* VuePress-ish content width (~740px) */
+  --ifm-container-width: 1000px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -43,35 +45,38 @@
   --ifm-background-color: #020617;
   --ifm-background-surface-color: #020617;
 
-}
+  --ifm-navbar-border-color: rgba(0,0,0,0);
+  --ifm-footer-border-color: rgba(0,0,0,0);
 
-.footer {
-  --ifm-footer-background-color: var(--ifm-footer-background-color);
 }
 
 .docs-doc-page .theme-layout-footer {
   display: none;
 }
 
-/* VuePress-ish content width (~740px) */
-:root {
-  --ifm-container-width: 1000px;
-}
-
-.main-wrapper .container {
-  max-width: var(--ifm-container-width);
-}
-
 html {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .markdown {
-  line-height: 1.65;
+  line-height: 1.60;
 }
 
 .markdown h1,
 .markdown h2,
 .markdown h3 {
   letter-spacing: -0.01em;
+}
+
+.main-wrapper .container {
+  max-width: var(--ifm-container-width);
+}
+
+.footer {
+  --ifm-footer-background-color: var(--ifm-footer-background-color);
+  border: none;
+}
+
+.navbar, .sidebar, .menu__link {
+  border: none !important;
 }
