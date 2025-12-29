@@ -11,20 +11,14 @@ This site provides the organisation for strength training related to high perfor
 
 #### Strength Session Preparation For Athletes
 
-##### Essential Equipment
+##### Equipment
 
-- Water
-- Mat
-- Waterproof jacket/trousers in-case of rain
-- Warm clothes
-
-
-##### Would be useful
-
-- Skip rope
-- Resistance bands
-- Block
-- Watch
+| Essential                                  | Would be useful  |
+|--------------------------------------------|------------------|
+| Water                                      | Skip rope        |
+| Mat                                        | Resistance bands |
+| Waterproof jacket/trousers in-case of rain | Block            |
+| Warm clothes                               | Watch            |
 
 
 ##### Valuable Investments
