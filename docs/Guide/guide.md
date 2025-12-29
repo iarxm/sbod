@@ -1,7 +1,9 @@
 ---
-id: guide
+id: Guide
 aliases: []
 tags: []
 ---
 
-#
+# SurfingBodies Guide
+
+
