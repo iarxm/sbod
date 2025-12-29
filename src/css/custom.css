@@ -48,6 +48,10 @@
   --ifm-footer-background-color: var(--ifm-footer-background-color);
 }
 
+.docs-doc-page .theme-layout-footer {
+  display: none;
+}
+
 html {
   font-size: 17px;
 }
