@@ -67,7 +67,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'SB',
+      title: 'SurfingBodies',
       logo: {
         alt: 'SURFBODIES',
         src: 'img/logo.png',
@@ -76,13 +76,13 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
+          position: 'right',
+          label: 'Doc',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/iarxm/sbod',
-          label: 'GitHub',
+          label: 'GH',
           position: 'right',
         },
       ],
@@ -91,11 +91,15 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Doc',
           items: [
             {
-              label: 'Docs',
-              to: '/docs/Guide',
+              label: 'Intro',
+              to: '/docs/intro',
+            },
+            {
+              label: 'Principles',
+              to: '/docs/principles',
             },
           ],
         },

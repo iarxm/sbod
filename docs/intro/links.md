@@ -1,5 +1,5 @@
 ---
-id: Links
+id: Internal Resources
 aliases: []
 tags: []
 sidebar_position: 3
