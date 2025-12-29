@@ -1,14 +1,6 @@
-# Dependencies
-/node_modules
-
-# Production
-/build
-
-# Generated files
-.docusaurus
-.cache-loader
-
-# Misc
+docs/.vuepress/.cache
+docs/.vuepress/.temp
+node_modules/
 .DS_Store
 .env.local
 .env.development.local
