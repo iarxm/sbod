@@ -27,6 +27,7 @@
   --ifm-footer-background-color: var(--ifm-background-surface-color);
   --ifm-navbar-border-color: rgba(255,255,255,0.08);
   --ifm-footer-border-color: rgba(255,255,255,0.08);
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -52,8 +53,17 @@
   display: none;
 }
 
+/* VuePress-ish content width (~740px) */
+:root {
+  --ifm-container-width: 740px;
+}
+
+.main-wrapper .container {
+  max-width: var(--ifm-container-width);
+}
+
 html {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .markdown {
@@ -65,4 +75,5 @@ html {
 .markdown h3 {
   letter-spacing: -0.01em;
 }
+
 
