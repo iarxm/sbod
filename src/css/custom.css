@@ -53,17 +53,14 @@
 html {
   font-size: 14px;
 }
-
 .markdown {
   line-height: 1.60;
 }
-
 .markdown h1,
 .markdown h2,
 .markdown h3 {
   letter-spacing: -0.01em;
 }
-
 .main-wrapper .container {
   max-width: var(--ifm-container-width);
 }
@@ -76,28 +73,20 @@ html {
 .navbar, .sidebar, .menu__link {
   border: none !important;
 }
-
 .theme-doc-sidebar-container {
   border-right: none !important;
 }
 
-/* Center the footer columns as a whole */
 .footer__links {
   justify-content: center;
   text-align: center;
 }
-
-/* Center each column's contents */
 .footer__col {
   align-items: center;
 }
-
-/* Center titles */
 .footer__title {
   text-align: center;
 }
-
-/* Center individual links */
 .footer__item {
   justify-content: center;
 }
