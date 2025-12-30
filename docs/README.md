@@ -4,11 +4,11 @@ title: Home
 heroImage: /img/logo-x.png
 actions:
   - text: Get Started
-    link: /get-started.html
+    link: /docs/get/get.html
     type: primary
 
   - text: Docs
-    link: /sbod/index.html
+    link: /docs/index.html
     type: secondary
 
 features:

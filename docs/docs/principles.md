@@ -2,11 +2,12 @@
 id: Training Principles
 aliases: []
 tags: []
-title: Guide
+title: Principles
 ---
-# Guide 
 
-## Principles
+# Principles Of Physical Preparation
+
+### Overview
 
 - A. Train to train
 - B. Train to compete
@@ -17,12 +18,12 @@ The goal is to establish the entire practise of physical preparation necessary f
 The secondary goal is to do so in a way which produces world class athleticism not just in physicality but in maturity and training independence
 
 
-#### Principles Of Training
+### Long Term Periodisation
 
 Think in four year cycles
 
 
-#### Training Types
+### Training Types
 
 - Strength forms
 - Flexibility

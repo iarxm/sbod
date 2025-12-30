@@ -13,39 +13,39 @@ export default defineUserConfig({
     navbar: [
       {
         text: 'Docs',
-        link: '/sbod/index'
+        link: '/docs/index'
       },
     ],
     sidebar: [
       {
         text: 'Docs',
-        link: '/sbod/index.html',
+        link: '/docs/index.html',
         children: [
         {
           text: 'Introduction',
-          link: '/sbod/index.html'
+          link: '/docs/index.html'
          },
          {
            text: 'Getting Started',
-           link: 'get/',
+           link: 'docs/get/index.html',
            children: [
              {
              text: 'Getting Started',
-             link: 'get/',
+             link: 'docs/get/index.html',
              },
              {
              text: 'Resources',
-             link: '/sbod/get/links.html',
+             link: 'docs/get/links.html',
              },
             ],
          },
         {
           text: 'Resources',
-          link: '/sbod/resources.html'
+          link: 'docs/resources.html'
          },
         {
           text: 'Principles',
-          link: '/sbod/principles.html'
+          link: 'docs/principles.html'
         },
         ],
       },
