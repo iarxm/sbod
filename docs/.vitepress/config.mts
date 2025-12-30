@@ -7,6 +7,9 @@ export default defineConfig({
   description: "Documentation for a performance surfing physical preperation system. A fundamental tool for high performance surfing.",
   base: '/sbod/',
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://iarxm.github.io/sbod/'
+  }
 
   themeConfig: {
 
@@ -35,7 +38,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/iarxm' }
+      { icon: 'github', link: 'https://github.com/iarxm/sbod' }
     ]
   }
 })
