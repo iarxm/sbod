@@ -7,6 +7,8 @@ title: Guide
 
 # Guide 
 
+[[toc]]
+
 ## Principles
 
 - A. Train to train

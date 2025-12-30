@@ -2,9 +2,8 @@
 id: Introduction
 aliases: []
 tags: []
-title: Guide
+title: Introduction
 ---
-
-# Guide
+# Introduction
 
 This site provides the organisation for strength training related to high performance surfing
