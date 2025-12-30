@@ -2,8 +2,8 @@
 layout: home
 hero:
   name: SurfingBodies
-  text: "Documentation for performance surfing physical preparation"
-  tagline: "Cease to practise, cease to exist"
+  text: "Documentation for high performance surf athletes serving their practise of physical preperation. \nPublished as open source forkable code"
+  tagline: "Cease to practise cease to exist"
   image:
     src: /img/logo.png
     alt: SurfingBodies
@@ -27,7 +27,7 @@ features:
   - title: Integration
     details: SB is the core component in a total athletic evaluation system.
   - title: Intuitive
-    details: Fundamentally, this system makes training second nature and naturally understandable. Think in movements and poses rather than in complicated muscle groups
+    details: Fundamentally, this system makes training second nature and naturally understandable. Think in movements and poses rather than in complicated muscle groups.
 
 footer: MIT Licensed | Copyright © 2025-present SurfingBodies Iarom MT
 ---

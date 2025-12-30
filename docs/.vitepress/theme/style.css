@@ -70,10 +70,6 @@
   --vp-c-danger-soft: var(--vp-c-red-soft);
 }
 
-/**
- * Component: Button
- * -------------------------------------------------------------------------- */
-
 :root {
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
@@ -85,10 +81,6 @@
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
-
-/**
- * Component: Home
- * -------------------------------------------------------------------------- */
 
 :root {
   --vp-home-hero-name-color: transparent;
@@ -127,4 +119,9 @@
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+.VPHomeHero .text {
+  font-size: clamp(1.5rem, 10vw, 1.7rem);
+  line-height: 1.15;
 }
