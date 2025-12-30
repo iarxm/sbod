@@ -4,10 +4,7 @@ aliases: []
 tags: []
 title: Guide
 ---
-
 # Guide 
-
-[[toc]]
 
 ## Principles
 

@@ -6,13 +6,13 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'SurfingBodies',
   base: '/sbod/',
-  description: 'Documentation site for the SurfingBodies physical preperation system targeted at surf performance',
+  description: 'Documentation site for the SurfingBodies physical preperation system. A fundamental tool for surf performance.',
   theme: defaultTheme({
     repo: 'iarxm/sbod',
     logo: '/img/logo-x.png',
     navbar: [
       {
-        text: 'SurfingBodies',
+        text: 'Docs',
         link: '/sbod/index'
       },
     ],

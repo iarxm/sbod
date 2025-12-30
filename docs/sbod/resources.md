@@ -4,8 +4,7 @@ aliases: []
 tags: []
 title: Guide
 ---
-
-### Resources
+## Resources
 
 - Ido
     - Ido Deep Squat  https://youtu.be/lbozu0DPcYI?si=GXT5ctQnseSdRZAP
