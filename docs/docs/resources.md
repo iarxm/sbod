@@ -1,11 +1,11 @@
 ---
-id: External Resources
+id: Specialist Resources
 aliases: []
 tags: []
-title: Guide
+title: Resources
 ---
 
-# List Of Excellent Resources
+# List Of Excellent Physical Training Resources
 
 - Andy Galpin
     - Gold standard high performance testing methodologies
@@ -46,4 +46,3 @@ title: Guide
 - Quick Demonstrations
     - [Hollow Body Rocks](https://www.youtube.com/watch?v=SfkuOb_1GK8)
     - [Gymnastic PE Animal Walks](https://vimeo.com/570302275)
-

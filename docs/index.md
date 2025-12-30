@@ -1,20 +1,24 @@
 ---
-home: true
-title: Home
-heroImage: /img/logo-x.png
-actions:
-  - text: Get Started
-    link: /docs/get/get.html
-    type: primary
-
-  - text: Docs
-    link: /docs/index.html
-    type: secondary
+layout: home
+hero:
+  name: SurfingBodies
+  text: "Documentation for performance surfing physical preparation"
+  tagline: "Cease to practise, cease to exist"
+  image:
+    src: /img/logo-x.png
+    alt: SurfingBodies
+  actions:
+    - theme: brand
+      text: Getting Started
+      link: /docs/get
+    - theme: alt
+      text: Docs
+      link: /docs/
 
 features:
   - title: Simplicity First
     details: Minimal setup with immediate actions and zero barriers to practise.
-  - title: Progression-Powered
+  - title: Progression-Powered 
     details: The ability to progress and demonstrate coherent mastery of an exercise strand is an intuitive way to measure progress.
   - title: Performant
     details: SurfingBodies is a performance first system.
@@ -27,4 +31,3 @@ features:
 
 footer: MIT Licensed | Copyright © 2025-present SurfingBodies Iarom MT
 ---
-
