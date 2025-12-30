@@ -10,7 +10,7 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://iarxm.github.io/sbod',
     lastModDateOnly: true,
-  }
+  },
 
   themeConfig: {
 

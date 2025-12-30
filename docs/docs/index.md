@@ -2,6 +2,7 @@
 id: Introduction
 aliases: []
 tags: []
+aside: true
 title: Introduction
 ---
 # Introduction

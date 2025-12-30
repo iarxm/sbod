@@ -2,6 +2,7 @@
 id: Training Principles
 aliases: []
 tags: []
+aside: true
 title: Principles
 ---
 
