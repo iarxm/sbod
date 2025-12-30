@@ -21,6 +21,11 @@ export default defineConfig({
     nav: [
       { text: 'Docs', link: '/docs/index' }
     ],
+    
+    footer: {
+      message: 'MIT Licensed',
+      copyright: 'Copyright © 2025-present SurfingBodies; Iarom MT',
+    },
    
     outline: [2,4],
 
