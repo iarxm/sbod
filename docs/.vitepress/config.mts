@@ -8,7 +8,7 @@ export default defineConfig({
   base: '/sbod/',
   cleanUrls: true,
   sitemap: {
-    hostname: 'https://iarxm.github.io/sbod',
+    hostname: 'https://pub.iarom.org/sbod',
     lastModDateOnly: true,
   },
 
