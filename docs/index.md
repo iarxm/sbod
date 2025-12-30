@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: SurfingBodies
-  text: "Documentation for high performance surf athletes serving their practise of physical preperation. \nPublished as open source forkable code"
+  text: "Documentation for high performance surf athletes and training groups, serving practise of physical preperation"
   tagline: "Cease to practise cease to exist"
   image:
     src: /img/logo.png
@@ -17,17 +17,22 @@ hero:
 
 features:
   - title: Simplicity First
-    details: Minimal setup with immediate actions and zero barriers to practise.
+    details: Minimal setup with zero barriers to immmediate practise. With flexible systems to adapt to the complexities of a surfing schedule.
+
   - title: Progression-Powered 
     details: The ability to progress and demonstrate coherent mastery of an exercise strand is an intuitive way to measure progress.
+
   - title: Performant
     details: SurfingBodies is a performance first system.
-  - title: Plug and Play
-    details: Flexible training to adapt to the complexities of surf athleticism.
+
   - title: Integration
     details: SB is the core component in a total athletic evaluation system.
+
   - title: Intuitive
     details: Fundamentally, this system makes training second nature and naturally understandable. Think in movements and poses rather than in complicated muscle groups.
+
+  - title: Open Source
+    details: High performance training made open source to fascillitate global collaboration and minimisation of duplication in document creation and systematized data gathering.
 
 footer: MIT Licensed | Copyright © 2025-present SurfingBodies Iarom MT
 ---
