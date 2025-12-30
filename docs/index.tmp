@@ -5,7 +5,7 @@ hero:
   text: "Documentation for performance surfing physical preparation"
   tagline: "Cease to practise, cease to exist"
   image:
-    src: /img/logo-x.png
+    src: /img/logo.png
     alt: SurfingBodies
   actions:
     - theme: brand

@@ -12,13 +12,17 @@ export default defineConfig({
     lastModDateOnly: true,
   },
 
+  head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
+
   themeConfig: {
 
     repo: 'iarxm/sbod',
-    logo: '/img/logo-x.png',
+    logo: '/img/logo.png',
     nav: [
       { text: 'Docs', link: '/docs/index' }
     ],
+   
+    outline: [2,4],
 
     sidebar: [
       {
