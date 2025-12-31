@@ -27,4 +27,4 @@ Reach out in relation to accessing further resources such as the WhatsApp group
 - Session Routines
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/1DKiuwhlh8vlWZgwHryDiob732vtNDRiCTcPFdGb3FAI/edit?usp=sharing" style="border: 0" width="800" height="1500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1DKiuwhlh8vlWZgwHryDiob732vtNDRiCTcPFdGb3FAI/edit?usp=sharing" style="border: 0" width="600" height="1500" frameborder="0" scrolling="no"></iframe>
