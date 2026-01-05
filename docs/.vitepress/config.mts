@@ -5,7 +5,7 @@ export default defineConfig({
 
   title: "SurfingBodies",
   description: "Documentation for a performance surfing physical preperation system. A fundamental tool for high performance surfing.",
-  site: 'https://pub.iarom.org'
+  site: 'https://pub.iarom.org',
   base: '/sbod/',
   cleanUrls: true,
   sitemap: {
