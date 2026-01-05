@@ -33,7 +33,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: npm run docs:build
       - name: Setup pages
-      - uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
