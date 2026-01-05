@@ -8,18 +8,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write # verify deployment originates from appropriate source
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           # if your docs needs submodules, uncomment the following line
           # submodules: true
-      - name: Setup Node.js
+      - name: Setup node
         uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -30,26 +32,21 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: npm run docs:build
-
+      - name: Setup pages
       - uses: actions/configure-pages@v5
-      - name: Upload Build Artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
 
   deploy:
-    name: Deploy to GitHub Pages
+    name: Deploy to gh-pages
     needs: build
-    permissions:
-      pages: write
-      id-token: write # verify deployment originates from appropriate source
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to gh-pages
         id: deployment
         uses: actions/deploy-pages@v4
