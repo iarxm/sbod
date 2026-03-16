@@ -1,12 +1,21 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
 
 export default defineUserConfig({
   lang: 'en-US',
   title: 'SurfingBodies',
   base: '/sbod/',
   description: 'Documentation site for the SurfingBodies physical preperation system. A fundamental tool for surf performance.',
+  //head: [
+  //  ['link', { rel: 'icon', href: '/img/logo.png'}],
+  //],
+  plugins: [
+    pwaPlugin({
+      favicon: '/img/logo.png',
+    }),
+  ],
   theme: defaultTheme({
     repo: 'iarxm/sbod',
     logo: '/img/logo-x.png',

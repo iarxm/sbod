@@ -4,7 +4,7 @@ title: Home
 heroImage: /img/logo-x.png
 actions:
   - text: Get Started
-    link: /docs/get/get.html
+    link: /docs/get/index.html
     type: primary
 
   - text: Docs
