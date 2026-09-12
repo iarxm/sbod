@@ -8,18 +8,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write # verify deployment originates from appropriate source
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           # if your docs needs submodules, uncomment the following line
           # submodules: true
-      - name: Setup Node.js
+      - name: Setup node
         uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -30,29 +32,21 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: npm run docs:build
-
-      - uses: actions/configure-pages@v5
-      - name: Upload Build Artifact
+      - name: Setup pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vuepress/dist
-          #folder: docs/.vuepress/dist
-          #path: build
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: build
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      pages: write # to deploy to Pages
-      id-token: write # to verify the deployment originates from an appropriate source
+          path: docs/.vitepress/dist
 
-    # Deploy to the github-pages environment
+  deploy:
+    name: Deploy to gh-pages
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to gh-pages
         id: deployment
         uses: actions/deploy-pages@v4
